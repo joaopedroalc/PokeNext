@@ -1,0 +1,22 @@
+.navItems{
+  list-style: none;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+.navItems:hover{
+  border-color: #fff;
+}
+
+.navItems a{
+  font-size: 20px;
+}
+
+.navItems + .navItems {
+  margin: 0px 30px;
+}
+.ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
